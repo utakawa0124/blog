@@ -1,0 +1,99 @@
+.title-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ArticleCard__titleAndDate__title2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ArticleCard__titleAndDate__title3{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+    width: 50%;
+}
+
+.image-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom : 2em
+}
+.title {
+  font-size: 40px;
+}
+
+.ArticleCard {
+    position: relative;
+    padding: 0.25em 1em;
+    margin: 2em 0;
+    top: 0;
+    background: #efefef;
+}
+.ArticleCard:before, .ArticleCard:after{ 
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 10px;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.ArticleCard:before{
+    border-left: dotted 2px #15adc1;
+    border-top: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    left: 0;
+}
+.ArticleCard:after{
+    border-top: dotted 2px #15adc1;
+    border-right: dotted 2px #15adc1;
+    border-bottom: dotted 2px #15adc1;
+    right: 0;
+}
+.ArticleCard p {
+    margin: 0; 
+    padding: 0;
+}
+    
+.ArticleCard__titleAndDate__date {
+    font-size: 16px;
+    margin-bottom:2em ;
+}
+.ArticleCard__titleAndDate__title2 {
+    font-size: 40px;
+    margin-bottom:1em ;
+    margin-top:1em ;
+}
+.ArticleCard__titleAndDate__title3{
+    font-size: 30px;
+    margin-bottom:1em ;
+    margin-top:1em ;
+}
+
+.ArticleCard__titleAndDate__title {
+    font-size: 30px;
+}
+
+main{
+    margin: 0 20em;   
+}
+.ArticleCard__articleText {
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
